@@ -1,7 +1,7 @@
 # vlibras-nextjs-example
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Application created to test the vlibras-nextjs lib
+Application created to test the <a href="https://github.com/vandsonfalcao/vlibras-nextjs">vlibras-nextjs</a> lib
 
 ## Getting Started
 
