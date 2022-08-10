@@ -6,7 +6,7 @@ import styles from "../styles/Home.module.css";
 const Home: NextPage = () => {
 	return (
 		<div className={styles.container}>
-      {/* only worked in production in tests with nextjs applications, maybe you can solve this! */}
+			{/* only worked in production in tests with nextjs applications, maybe you can solve this! */}
 			{process.env.NODE_ENV === "production" && <VLibras forceOnload />}
 			<Head>
 				<title>vlibras-nextjs</title>
@@ -16,13 +16,15 @@ const Home: NextPage = () => {
 			<main className={styles.main}>
 				<h1 className={styles.title}>
 					Bem vindo ao exemplo da lib{" "}
-					<a href="https://github.com/vandsonfalcao/vlibras-nextjs">vlibras-nextjs</a> em
-					aplicações <a href="https://nextjs.org">Next.js!</a>
+					<a target="_blank" rel="noreferrer" href="https://github.com/vandsonfalcao/vlibras-nextjs">
+						vlibras-nextjs
+					</a>{" "}
+					em aplicações <a target="_blank" rel="noreferrer" href="https://nextjs.org">Next.js!</a>
 				</h1>
 			</main>
 
 			<footer className={styles.footer}>
-				<a href="https://github.com/vandsonfalcao">Powered by Vandson Falcão</a>
+				<a target="_blank" rel="noreferrer" href="https://github.com/vandsonfalcao">Powered by Vandson Falcão</a>
 			</footer>
 		</div>
 	);
